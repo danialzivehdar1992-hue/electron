@@ -8,7 +8,7 @@ This module adds extra protection to data being stored on disk by using OS-provi
 security semantics for each platform are outlined below.
 
 > [!NOTE]
-> We recommend using the asynchronous API (`asyncEncryptString`/`asyncDecryptString`) over the synchronous API.
+> It is recommended to use the asynchronous API (`asyncEncryptString`/`asyncDecryptString`) over the synchronous API.
 > The async API is non-blocking, supports key rotation, and handles temporary unavailability gracefully.
 > The synchronous API may be deprecated in a future version of Electron.
 
